@@ -7,6 +7,7 @@ import com.daouda.expensetracker.entity.UserModel;
 import com.daouda.expensetracker.security.CustomUserDetailsService;
 import com.daouda.expensetracker.service.UserService;
 import com.daouda.expensetracker.util.JwtTokenUtil;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -22,7 +23,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.validation.Valid;
 
 @RestController
 public class AuthController {

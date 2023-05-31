@@ -2,12 +2,12 @@ package com.daouda.expensetracker.controller;
 
 import com.daouda.expensetracker.entity.Expense;
 import com.daouda.expensetracker.service.ExpenseService;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
 import java.sql.Date;
 import java.util.List;
 
